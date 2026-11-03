@@ -15,5 +15,5 @@ export function filtrerParTexture(observations, texture) {
 // Renvoie une COPIE triée par pH croissant, avec un comparateur numérique.
 // Le tableau reçu ne doit pas changer d'ordre. Deux observations de même pH gardent leur ordre d'origine.
 export function trierParPh(observations) {
-  
+  return[... observations].sort((a,b)=>a.pH-b.pH);
 }
