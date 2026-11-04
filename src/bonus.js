@@ -72,7 +72,20 @@ export function textureLaPlusFrequente(observations) {
   // if (!observations || observations. length === 0){
   //   return null;
   // }b
-  
+  const comptage=compterParTexture(observations);
+  let textureMax = null;
+  let nombreMax=0;
+  for (const obs of observations){
+    const texture = obs.texture;
+    if (texture && comptage [texture]> nombreMax){
+      nombreMax = comptage[texture];
+      textureMax= texture;
+    }
+  }
+  if (!textureMax){
+  return null;
+  }
+return {texture: textureMax, nombre: nombreMax};
 }
   
 
