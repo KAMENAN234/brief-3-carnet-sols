@@ -62,7 +62,7 @@ export function modifierObservation(observations, id, champ, valeur) {
 
 // Renvoie une COPIE triée par pH décroissant. Le tableau reçu ne doit pas changer d'ordre.
 export function trierParPhDecroissant(observations) {
-
+  return [...observations].sort ((a, b)=> b.pH - a.pH);
 }
 
 // Renvoie { texture, nombre } pour la texture la plus fréquente, ou null si la liste est vide.
@@ -72,7 +72,7 @@ export function textureLaPlusFrequente(observations) {
   // if (!observations || observations. length === 0){
   //   return null;
   // }b
- 
+  
 }
   
 
