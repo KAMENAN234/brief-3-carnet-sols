@@ -12,7 +12,14 @@ export const CHAMPS_MODIFIABLES = ['parcelle', 'texture', 'pH', 'etatHumidite'];
 // Supprime du carnet l'observation qui a cet identifiant.
 // Renvoie l'observation supprimée, ou undefined si elle n'existe pas (le carnet ne change pas).
 export function supprimerObservation(observations, id) {
-  throw new Error('TODO Bonus : coder supprimerObservation dans src/bonus.js');
+  const position= observations.findIndex(observation => observation.id===id);
+  if(position===-1){
+    return undefined;
+  }
+  else{
+      const conserveSuppression= observations.splice(position,1);
+      return conserveSuppression[0];
+    }
 }
 
 // Modifie UN champ d'une observation. La nouvelle valeur arrive sous forme de TEXTE et suit
@@ -21,17 +28,17 @@ export function supprimerObservation(observations, id) {
 // Erreurs : identifiant introuvable · champ 'id' (non modifiable) · champ absent de CHAMPS_MODIFIABLES
 //           · valeur refusée par les règles de l'ajout.
 export function modifierObservation(observations, id, champ, valeur) {
-  throw new Error('TODO Bonus : coder modifierObservation dans src/bonus.js');
+  
 }
 
 // Renvoie une COPIE triée par pH décroissant. Le tableau reçu ne doit pas changer d'ordre.
 export function trierParPhDecroissant(observations) {
-  throw new Error('TODO Bonus : coder trierParPhDecroissant dans src/bonus.js');
+  
 }
 
 // Renvoie { texture, nombre } pour la texture la plus fréquente, ou null si la liste est vide.
 // En cas d'égalité, la première texture rencontrée l'emporte.
 // Exemple : { texture: 'limoneux', nombre: 4 }
 export function textureLaPlusFrequente(observations) {
-  throw new Error('TODO Bonus : coder textureLaPlusFrequente dans src/bonus.js');
+  
 }
