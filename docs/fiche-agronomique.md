@@ -22,4 +22,4 @@ cette forte acidité pourrait affecter la disponibilité des nutriments pour les
 
 
 Sources : SUJET.md , données enregistrée dans donnée et observations.json
- Relu par le coach le :
+ Relu par le coach le:
