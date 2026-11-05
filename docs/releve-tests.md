@@ -20,13 +20,17 @@
 
 **Essais dans le menu** : un ajout valide (encore là après redémarrage), chaque règle refusée, une recherche introuvable, chaque tri, la synthèse, un choix inconnu.
 
-| Action                   | Attendu             | Obtenu                   | Testeur |
-| --- | --- | ---   | ---  |
-|ajout valide              |observation ajoutée  |                     |                     |
-|chaque règle refusée      |aucun ajout          |                     |                     |
-|une recherche introuvable |introuvable          |                     |                     |
-| chaque tri               |trier reussi         |                     |                     |
-| la synthèse              |affiche les statistiques de lobservation   |                     |
-| un choix inconnu         |aucune observation   |                     |        |
+| Action                   | Attendu                                            | Obtenu                      | Testeur |
+| ----------------------------------------------------------------------------------------------------------------------------------
+|ajout valide              |observation ajoutée                      |                                    |                        |
+|chaque règle refusée      |aucun ajout                              |                                    |                        |
+|une recherche introuvable |introuvable                              |                                    |                        |
+| chaque tri               |trier reussi                             |                                    |                        |
+| la synthèse              |affiche les statistiques de lobservation |                                    |                        |
+| un choix inconnu         |aucune observation                       |                                    |                        |
+
+
+
+
 
 **Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️
