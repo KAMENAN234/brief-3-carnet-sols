@@ -33,4 +33,4 @@
 
 
 
-**Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️
+**Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️.
