@@ -16,7 +16,7 @@ J'ai écrire la fonction d'ajout d'une observation(`ajouter`).Elle fonction en c
 
 
 3. **L'entraide**  : j'ai recu l'aide de mon equipe 
-
+.
 
 
 
