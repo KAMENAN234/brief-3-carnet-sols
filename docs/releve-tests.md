@@ -20,14 +20,14 @@
 
 **Essais dans le menu** : un ajout valide (encore là après redémarrage), chaque règle refusée, une recherche introuvable, chaque tri, la synthèse, un choix inconnu.
 
-| Action                   | Attendu                                            | Obtenu                      | Testeur |
-| ----------------------------------------------------------------------------------------------------------------------------------
-|ajout valide              |observation ajoutée                      |                                    |                        |
-|chaque règle refusée      |aucun ajout                              |                                    |                        |
-|une recherche introuvable |introuvable                              |                                    |                        |
-| chaque tri               |trier reussi                             |                                    |                        |
-| la synthèse              |affiche les statistiques de lobservation |                                    |                        |
-| un choix inconnu         |aucune observation                       |                                    |                        |
+| Action                   | Attendu                                            | Obtenu  |                    | Testeur |
+| -------------------------------------------------------------------------------------------------------------------------------
+|ajout valide              |observation ajoutée                      | observation ajouter                | ADAMA  KONATE        | 
+|chaque règle refusée      |aucun ajout                              |          aucun ajout               | ADAMA  KONATE        |
+|une recherche introuvable |introuvable                              |      trier reussi                  | ADAMA  KONATE        |
+| chaque tri               |trier reussi                             |       trier reussi                 | ADAMA  KONATE        |
+| la synthèse              |affiche les statistiques de lobservation | afficher observation          ;    | ADAMA  KONATE        |
+| un choix inconnu         |aucune observation                       |  aucune observation                | ADAMA  KONATE        |
 
 
 
