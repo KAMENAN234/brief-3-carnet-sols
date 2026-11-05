@@ -20,4 +20,4 @@ PARCELLE : P1, P2, P3, P4, P5
 **Sources**:
 - observation.json
 - Ajouter-lister.md
-- fiches de relevées a la ferme avec le coach.
+- fiches de relevées a la ferme avec le coach..
