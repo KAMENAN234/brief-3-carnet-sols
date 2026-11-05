@@ -24,5 +24,5 @@ Message exact:
 Ce que j'ai essayé: 
 je me suis referé à AI pour decouvrir le problème
 
-Solution: Ajouter le mot-clé `<<await>>` devant la fonction de chargement asynchrone pour récupérer correctements les données avant de les manipulées
+Solution: Ajouter le mot-clé `<<await>>` devant la fonction de chargement asynchrone pour récupérer correctements les données avant de les manipulées..
 
